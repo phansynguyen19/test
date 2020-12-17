@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: andthensome/alpine-hugo-git-bash
+      - image: img/IMG_4862.JPG
       steps:
       - run:
           name: build site and push to github-pages
